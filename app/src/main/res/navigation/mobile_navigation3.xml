@@ -17,14 +17,16 @@
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
 
-    <fragment
-        android:id="@+id/navigation_explore"
-        android:name="com.example.clubsync.ui.explore.ExploreFragment"
-        android:label="Explore"
-        tools:layout="@layout/fragment_explore" />
+
     <fragment
         android:id="@+id/navigation_news"
         android:name="com.example.clubsync.ui.news.NewsFragment"
         android:label="News"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="com.example.clubsync.ui.explore.ExploreFragment"
+        android:label="Explore"
         tools:layout="@layout/fragment_explore" />
 </navigation>
