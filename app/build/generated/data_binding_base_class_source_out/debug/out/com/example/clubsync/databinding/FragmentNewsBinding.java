@@ -4,10 +4,10 @@ package com.example.clubsync.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.clubsync.R;
@@ -17,19 +17,19 @@ import java.lang.String;
 
 public final class FragmentNewsBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final FrameLayout rootView;
 
   @NonNull
-  public final TextView textNews;
+  public final RecyclerView recyclerView;
 
-  private FragmentNewsBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textNews) {
+  private FragmentNewsBinding(@NonNull FrameLayout rootView, @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
-    this.textNews = textNews;
+    this.recyclerView = recyclerView;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public FrameLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +54,13 @@ public final class FragmentNewsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_news;
-      TextView textNews = ViewBindings.findChildViewById(rootView, id);
-      if (textNews == null) {
+      id = R.id.recycler_view;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
         break missingId;
       }
 
-      return new FragmentNewsBinding((ConstraintLayout) rootView, textNews);
+      return new FragmentNewsBinding((FrameLayout) rootView, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
