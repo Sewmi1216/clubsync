@@ -18,7 +18,7 @@
         tools:layout="@layout/fragment_profile" />
 
     <fragment
-        android:id="@+id/navigation_explorer"
+        android:id="@+id/navigation_explore"
         android:name="com.example.clubsync.ui.explore.ExploreFragment"
         android:label="Explore"
         tools:layout="@layout/fragment_explore" />
