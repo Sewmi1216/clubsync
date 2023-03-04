@@ -4,11 +4,11 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ExplorerViewModel extends ViewModel {
+public class ExploreViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public ExplorerViewModel() {
+    public ExploreViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is explorer fragment");
     }

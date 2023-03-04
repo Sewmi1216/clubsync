@@ -4,33 +4,32 @@ package com.example.clubsync.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.clubsync.R;
-import com.google.android.material.appbar.MaterialToolbar;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final MaterialToolbar appBar;
+  public final Button result;
 
-  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull MaterialToolbar appBar) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button result) {
     this.rootView = rootView;
-    this.appBar = appBar;
+    this.result = result;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -55,13 +54,13 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.appBar;
-      MaterialToolbar appBar = ViewBindings.findChildViewById(rootView, id);
-      if (appBar == null) {
+      id = R.id.result;
+      Button result = ViewBindings.findChildViewById(rootView, id);
+      if (result == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((CoordinatorLayout) rootView, appBar);
+      return new ActivityMainBinding((ConstraintLayout) rootView, result);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
