@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\layout_activity_signin.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\layout\\activity_signin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_roundedimage.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\roundedimage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_jessica.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\jessica.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\layout_fragment_explore.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\layout\\fragment_explore.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\layout_fragment_news.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_input_field.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\input_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_clubsync.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\clubsync.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-pngs-38:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.clubsync.app-merged_res-43:/layout_fragment_profile.xml.flat",
+        "source": "com.example.clubsync.app-main-45:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\baseline_edit_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_propic.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\propic.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_baseline_notifications_24.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\baseline_notifications_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_round.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\navigation_mobile_navigation3.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\navigation\\mobile_navigation3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_baseline_explore_24.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\baseline_explore_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-merged_res-43:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\Adithya\\.gradle\\daemon\\7.5\\com.example.clubsync.app-main-45:\\drawable\\baseline_person_24.xml"
+    }
+]

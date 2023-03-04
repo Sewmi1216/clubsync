@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.clubsync.databinding.FragmentProfileBinding;
-import com.example.clubsync.databinding.FragmentProfileBinding;
+import com.example.clubsync.ui.profile.ProfileViewModel;
 
 public class ProfileFragment extends Fragment {
 
@@ -25,8 +25,8 @@ public class ProfileFragment extends Fragment {
         binding = FragmentProfileBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textProfile;
-        profileViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+//        final TextView textView = binding.profileName;
+//        profileViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

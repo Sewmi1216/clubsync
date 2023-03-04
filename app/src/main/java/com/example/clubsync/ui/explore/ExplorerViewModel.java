@@ -10,7 +10,7 @@ public class ExplorerViewModel extends ViewModel {
 
     public ExplorerViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is explorer fragment");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {

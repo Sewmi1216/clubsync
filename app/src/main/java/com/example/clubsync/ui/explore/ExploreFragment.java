@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.clubsync.databinding.FragmentExploreBinding;
+import com.example.clubsync.ui.explore.ExplorerViewModel;
 
 public class ExploreFragment extends Fragment {
 
