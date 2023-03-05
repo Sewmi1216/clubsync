@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,11 +22,24 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button result;
+  public final ImageView logoImageView2;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button result) {
+  @NonNull
+  public final Button signin;
+
+  @NonNull
+  public final Button signup;
+
+  @NonNull
+  public final TextView themeTextView;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView logoImageView2,
+      @NonNull Button signin, @NonNull Button signup, @NonNull TextView themeTextView) {
     this.rootView = rootView;
-    this.result = result;
+    this.logoImageView2 = logoImageView2;
+    this.signin = signin;
+    this.signup = signup;
+    this.themeTextView = themeTextView;
   }
 
   @Override
@@ -54,13 +69,32 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.result;
-      Button result = ViewBindings.findChildViewById(rootView, id);
-      if (result == null) {
+      id = R.id.logoImageView2;
+      ImageView logoImageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (logoImageView2 == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, result);
+      id = R.id.signin;
+      Button signin = ViewBindings.findChildViewById(rootView, id);
+      if (signin == null) {
+        break missingId;
+      }
+
+      id = R.id.signup;
+      Button signup = ViewBindings.findChildViewById(rootView, id);
+      if (signup == null) {
+        break missingId;
+      }
+
+      id = R.id.themeTextView;
+      TextView themeTextView = ViewBindings.findChildViewById(rootView, id);
+      if (themeTextView == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, logoImageView2, signin, signup,
+          themeTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,7 +4,8 @@ package com.example.clubsync.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.Button;
+import android.widget.SearchView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,12 +21,37 @@ public final class FragmentExploreBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textExplore;
+  public final Button club1;
 
-  private FragmentExploreBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textExplore) {
+  @NonNull
+  public final Button club2;
+
+  @NonNull
+  public final Button club3;
+
+  @NonNull
+  public final Button club4;
+
+  @NonNull
+  public final Button club5;
+
+  @NonNull
+  public final Button club7;
+
+  @NonNull
+  public final SearchView search;
+
+  private FragmentExploreBinding(@NonNull ConstraintLayout rootView, @NonNull Button club1,
+      @NonNull Button club2, @NonNull Button club3, @NonNull Button club4, @NonNull Button club5,
+      @NonNull Button club7, @NonNull SearchView search) {
     this.rootView = rootView;
-    this.textExplore = textExplore;
+    this.club1 = club1;
+    this.club2 = club2;
+    this.club3 = club3;
+    this.club4 = club4;
+    this.club5 = club5;
+    this.club7 = club7;
+    this.search = search;
   }
 
   @Override
@@ -55,13 +81,50 @@ public final class FragmentExploreBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_explore;
-      TextView textExplore = ViewBindings.findChildViewById(rootView, id);
-      if (textExplore == null) {
+      id = R.id.club1;
+      Button club1 = ViewBindings.findChildViewById(rootView, id);
+      if (club1 == null) {
         break missingId;
       }
 
-      return new FragmentExploreBinding((ConstraintLayout) rootView, textExplore);
+      id = R.id.club2;
+      Button club2 = ViewBindings.findChildViewById(rootView, id);
+      if (club2 == null) {
+        break missingId;
+      }
+
+      id = R.id.club3;
+      Button club3 = ViewBindings.findChildViewById(rootView, id);
+      if (club3 == null) {
+        break missingId;
+      }
+
+      id = R.id.club4;
+      Button club4 = ViewBindings.findChildViewById(rootView, id);
+      if (club4 == null) {
+        break missingId;
+      }
+
+      id = R.id.club5;
+      Button club5 = ViewBindings.findChildViewById(rootView, id);
+      if (club5 == null) {
+        break missingId;
+      }
+
+      id = R.id.club7;
+      Button club7 = ViewBindings.findChildViewById(rootView, id);
+      if (club7 == null) {
+        break missingId;
+      }
+
+      id = R.id.search;
+      SearchView search = ViewBindings.findChildViewById(rootView, id);
+      if (search == null) {
+        break missingId;
+      }
+
+      return new FragmentExploreBinding((ConstraintLayout) rootView, club1, club2, club3, club4,
+          club5, club7, search);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

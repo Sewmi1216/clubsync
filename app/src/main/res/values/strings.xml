@@ -8,10 +8,13 @@
     <string name="title_explore">Explore</string>
     <string name="title_profile">Profile</string>
     <string name="title_activity_home">HomeActivity</string>
-    <string name="news_content">Newly appointed</string>
-    <string name="news1">helllllllllllllllllllllllllllllllll</string>
-    <string name="news2">helllllllllllllllllllllllllllllllll</string>
-    <string name="news3">helllllllllllllllllllllllllllllllll</string>
-    <string name="news4">helllllllllllllllllllllllllllllllll</string>
-    <string name="news5">helllllllllllllllllllllllllllllllll</string>
+    <string name="news_content">News</string>
+    <string name="news1">News</string>
+    <string name="news2">News</string>
+    <string name="news3">News</string>
+    <string name="news4">News</string>
+    <string name="news5">News</string>
+    <string name="news6">News</string>
+    <string name="news7">News</string>
+    <string name="news8">News</string>
 </resources>
