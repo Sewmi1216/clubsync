@@ -33,7 +33,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.MyViewHolder> 
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
         String news = newsList.get(position);
-            holder.newsHeading.setText("news");
+ //       holder.newsHeading.setText("news");
 //            holder.shapeableImageView.setImageResource(news);
     }
 
