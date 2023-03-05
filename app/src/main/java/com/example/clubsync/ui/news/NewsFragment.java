@@ -52,13 +52,19 @@ public class NewsFragment extends Fragment {
                 getString(R.string.news3),
                 getString(R.string.news4),
                 getString(R.string.news5),
+                getString(R.string.news6),
+                getString(R.string.news7),
+                getString(R.string.news8),
         };
         newsImg = new int[]{
-                R.drawable.ess,
                 R.drawable.peakpx,
-                R.drawable.ess,
-                R.drawable.ess,
-                R.drawable.ess,
+                R.drawable.peakpx,
+                R.drawable.peakpx,
+                R.drawable.peakpx,
+                R.drawable.peakpx,
+                R.drawable.peakpx,
+                R.drawable.peakpx,
+                R.drawable.peakpx,
         };
         for (int i=0; i<newsHeading.length; i++){
             News news = new News(newsHeading[i], newsImg[i]);

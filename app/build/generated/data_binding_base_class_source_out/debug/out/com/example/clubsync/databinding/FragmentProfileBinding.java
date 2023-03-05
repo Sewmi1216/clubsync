@@ -4,10 +4,13 @@ package com.example.clubsync.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.clubsync.R;
@@ -17,20 +20,98 @@ import java.lang.String;
 
 public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final TextView textProfile;
+  public final Button clubAIESEC;
 
-  private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textProfile) {
+  @NonNull
+  public final Button clubCompsoc;
+
+  @NonNull
+  public final Button clubIEEE;
+
+  @NonNull
+  public final LinearLayout profileDetails;
+
+  @NonNull
+  public final TextView profileName;
+
+  @NonNull
+  public final ImageView profilePicture;
+
+  @NonNull
+  public final LinearLayout profileUp;
+
+  @NonNull
+  public final LinearLayout sepProDetails1;
+
+  @NonNull
+  public final LinearLayout sepProDetails2;
+
+  @NonNull
+  public final LinearLayout sepProDetails3;
+
+  @NonNull
+  public final LinearLayout sepProDetails4;
+
+  @NonNull
+  public final TextView textView;
+
+  @NonNull
+  public final TextView tvClubs;
+
+  @NonNull
+  public final TextView tvEmail;
+
+  @NonNull
+  public final TextView tvEmailOutput;
+
+  @NonNull
+  public final TextView tvName;
+
+  @NonNull
+  public final TextView tvNameOutput;
+
+  @NonNull
+  public final TextView tvUniId;
+
+  @NonNull
+  public final TextView tvUniIdOutput;
+
+  private FragmentProfileBinding(@NonNull RelativeLayout rootView, @NonNull Button clubAIESEC,
+      @NonNull Button clubCompsoc, @NonNull Button clubIEEE, @NonNull LinearLayout profileDetails,
+      @NonNull TextView profileName, @NonNull ImageView profilePicture,
+      @NonNull LinearLayout profileUp, @NonNull LinearLayout sepProDetails1,
+      @NonNull LinearLayout sepProDetails2, @NonNull LinearLayout sepProDetails3,
+      @NonNull LinearLayout sepProDetails4, @NonNull TextView textView, @NonNull TextView tvClubs,
+      @NonNull TextView tvEmail, @NonNull TextView tvEmailOutput, @NonNull TextView tvName,
+      @NonNull TextView tvNameOutput, @NonNull TextView tvUniId, @NonNull TextView tvUniIdOutput) {
     this.rootView = rootView;
-    this.textProfile = textProfile;
+    this.clubAIESEC = clubAIESEC;
+    this.clubCompsoc = clubCompsoc;
+    this.clubIEEE = clubIEEE;
+    this.profileDetails = profileDetails;
+    this.profileName = profileName;
+    this.profilePicture = profilePicture;
+    this.profileUp = profileUp;
+    this.sepProDetails1 = sepProDetails1;
+    this.sepProDetails2 = sepProDetails2;
+    this.sepProDetails3 = sepProDetails3;
+    this.sepProDetails4 = sepProDetails4;
+    this.textView = textView;
+    this.tvClubs = tvClubs;
+    this.tvEmail = tvEmail;
+    this.tvEmailOutput = tvEmailOutput;
+    this.tvName = tvName;
+    this.tvNameOutput = tvNameOutput;
+    this.tvUniId = tvUniId;
+    this.tvUniIdOutput = tvUniIdOutput;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -55,13 +136,124 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_profile;
-      TextView textProfile = ViewBindings.findChildViewById(rootView, id);
-      if (textProfile == null) {
+      id = R.id.clubAIESEC;
+      Button clubAIESEC = ViewBindings.findChildViewById(rootView, id);
+      if (clubAIESEC == null) {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, textProfile);
+      id = R.id.clubCompsoc;
+      Button clubCompsoc = ViewBindings.findChildViewById(rootView, id);
+      if (clubCompsoc == null) {
+        break missingId;
+      }
+
+      id = R.id.clubIEEE;
+      Button clubIEEE = ViewBindings.findChildViewById(rootView, id);
+      if (clubIEEE == null) {
+        break missingId;
+      }
+
+      id = R.id.profileDetails;
+      LinearLayout profileDetails = ViewBindings.findChildViewById(rootView, id);
+      if (profileDetails == null) {
+        break missingId;
+      }
+
+      id = R.id.profileName;
+      TextView profileName = ViewBindings.findChildViewById(rootView, id);
+      if (profileName == null) {
+        break missingId;
+      }
+
+      id = R.id.profilePicture;
+      ImageView profilePicture = ViewBindings.findChildViewById(rootView, id);
+      if (profilePicture == null) {
+        break missingId;
+      }
+
+      id = R.id.profileUp;
+      LinearLayout profileUp = ViewBindings.findChildViewById(rootView, id);
+      if (profileUp == null) {
+        break missingId;
+      }
+
+      id = R.id.sepProDetails1;
+      LinearLayout sepProDetails1 = ViewBindings.findChildViewById(rootView, id);
+      if (sepProDetails1 == null) {
+        break missingId;
+      }
+
+      id = R.id.sepProDetails2;
+      LinearLayout sepProDetails2 = ViewBindings.findChildViewById(rootView, id);
+      if (sepProDetails2 == null) {
+        break missingId;
+      }
+
+      id = R.id.sepProDetails3;
+      LinearLayout sepProDetails3 = ViewBindings.findChildViewById(rootView, id);
+      if (sepProDetails3 == null) {
+        break missingId;
+      }
+
+      id = R.id.sepProDetails4;
+      LinearLayout sepProDetails4 = ViewBindings.findChildViewById(rootView, id);
+      if (sepProDetails4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_clubs;
+      TextView tvClubs = ViewBindings.findChildViewById(rootView, id);
+      if (tvClubs == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_email;
+      TextView tvEmail = ViewBindings.findChildViewById(rootView, id);
+      if (tvEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_emailOutput;
+      TextView tvEmailOutput = ViewBindings.findChildViewById(rootView, id);
+      if (tvEmailOutput == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_name;
+      TextView tvName = ViewBindings.findChildViewById(rootView, id);
+      if (tvName == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_nameOutput;
+      TextView tvNameOutput = ViewBindings.findChildViewById(rootView, id);
+      if (tvNameOutput == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_uniId;
+      TextView tvUniId = ViewBindings.findChildViewById(rootView, id);
+      if (tvUniId == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_uniIdOutput;
+      TextView tvUniIdOutput = ViewBindings.findChildViewById(rootView, id);
+      if (tvUniIdOutput == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((RelativeLayout) rootView, clubAIESEC, clubCompsoc,
+          clubIEEE, profileDetails, profileName, profilePicture, profileUp, sepProDetails1,
+          sepProDetails2, sepProDetails3, sepProDetails4, textView, tvClubs, tvEmail, tvEmailOutput,
+          tvName, tvNameOutput, tvUniId, tvUniIdOutput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
